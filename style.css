@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: 100vh;
+    /* padding: 20px; */
+}
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    gap: 350px;
+    /* border: solid black; */
+}
+.registraciis {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.satauri {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row-reverse;
+    gap: 12px;
+}
+.forma {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.charcho {
+    height: 50px;
+}
+.buttoni{
+    width: 300px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: blue;
+    flex-direction: row;
+    gap: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buttoni2{
+    width: 300px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 30, 255);
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+    gap: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shrifti {
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.qveda {
+    display: flex;
+    flex-direction: row;
+    color: rgba(0, 0, 0, 0.314);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.xazgasmuli {
+    text-decoration:underline;
+    color: blue;
+}
+.mqrali {
+    color: rgba(0, 0, 0, 0.571);
+    font-family: l;
+}
+.foto2 {
+    width: 100%;
+    height: 100%;
+}
